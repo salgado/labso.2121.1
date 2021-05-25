@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Mensagem do commit"
-read MENSAGEM
+MENSAGEM=$1
 
 git add .
 git commit -m "$MENSAGEM"
